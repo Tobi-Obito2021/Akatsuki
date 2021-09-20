@@ -1,0 +1,209 @@
+.menu {
+	width: 150px;
+	font-weight: bold;
+	color: white;
+	background-color: #45015b;
+	border-top-right-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+.menu a {
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: inherit;
+}
+.menu a:hover {
+	color:yellow;
+	background-color: black;
+	border-radius: 10px;
+}
+*{
+	box-sizing: border-box;
+}
+.main{
+	margin-left: 360px;
+	margin-top: 80px;
+	margin-right: 40px;
+}
+h1 {
+	font-weight:400px;
+	font-size: 64px;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.images img {
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+}
+.images img:hover {
+	opacity: 1;
+}
+h2 {
+	color: #45015b;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+hr {
+	width: 100%;
+	border: 5px solid #45015b;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.member {
+	padding: 8px 8px;
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.member img{
+	filter
+	: grayscale(30%);
+	border-radius: 10px;
+	width: 100%;
+}
+.member .description {
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 2px 16px 5px;
+}
+.member .position{
+	color: gray;
+
+}
+.tariff {
+	width: 49%;
+	padding: 0 8px;
+	min-width: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+}
+.tariff ul{
+	color: black;
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+.tariff li {
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-radius: 10px;
+	padding: 16px 0;
+}
+.tariff .tariff-name{
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 24px;
+	background-color: #45015d;
+	padding: 32px 0;
+}
+.tariff .price{
+	font-size: 30px;
+	font-weight: 400;
+}
+.tariff .period{
+	opacity: 0.7;
+}
+.tariff button{
+	background-color: white;
+	color: #45015d;
+	border-radius: 15px;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+}
+.tariff button:hover{
+	color: white;
+	background-color: #45015d;
+}
+.tariff-pro {
+	width: 49%;
+	padding: 0 8px;
+	min-width: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+}
+.tariff-pro ul{
+	color: black;
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+.tariff-pro li {
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-radius: 10px;
+	padding: 16px 0;
+}
+.tariff-pro .tariff-name{
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 24px;
+	background-color: #f44336;
+	padding: 32px 0;
+}
+.tariff-pro .price{
+	font-size: 30px;
+	font-weight: 400;
+}
+.tariff-pro .period{
+	opacity: 0.7;
+}
+.tariff-pro button{
+	background-color: white;
+	color: #f44336;
+	border-radius: 15px;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+}
+.tariff-pro button:hover{
+	color: white;
+	background-color: #45015d;
+}
+.contact {
+	color: #f44336;
+	font-weight: 400;
+}
+.contact input{
+	border: 1px solid black;
+	outline: none;
+	padding: 8px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.contact p {
+	color: black;
+}
+button {
+	width: 100%;
+	background-color: #45015d;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
